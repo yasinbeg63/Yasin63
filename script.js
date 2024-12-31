@@ -1,4 +1,8 @@
 const poemLines = [
+<<<<<<< HEAD
+=======
+  "Bunu yapmak biraz kolay olmadı kıymetini bil:)",
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   "Bir tanışma anı, bir yeni başlangıç, 🌹",
   "Gözlerinde beliren umut, bir ışık, 🌹",
   "Yolun başındayız, adımlar dikkatli, 🌹",
@@ -6,7 +10,12 @@ const poemLines = [
   "İçinde barındırdığın güzellikler var, 🌹",
   "Bunu görmek, tanımak, insanı mutlu eder, 🌹",
   "Her şeyin zamanı var, biz de biraz zaman, 🌹",
+<<<<<<< HEAD
   "Birlikte keşfederiz, hayatı yavaşça, belki bir zaman. 🌹"
+=======
+  "Birlikte keşfederiz, hayatı yavaşça, belki bir zaman. 🌹",
+  "UMARIM GÜNÜN SENİN GİBİ GÜZEL GEÇMİŞTİR, "
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
 ];
 
 let currentLine = 0;
@@ -35,8 +44,13 @@ function displayPoem() {
 
     setTimeout(() => {
       currentLine++;
+<<<<<<< HEAD
       setTimeout(displayPoem, 500); // 5 saniye sonra bir sonraki satır
     }, 5000); // Satırların 5 saniye kalmasını sağlar
+=======
+      setTimeout(displayPoem, 500); // 500ms sonra bir sonraki satır
+    }, 5000); // Satırların 5 saniye görünmesini sağlar
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   } else {
     setTimeout(() => {
       poemScreen.style.display = "none";

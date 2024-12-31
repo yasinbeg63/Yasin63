@@ -51,8 +51,13 @@ body {
 
 /* Ayıcığın Genel Yapısı */
 #bear {
+<<<<<<< HEAD
   width: 150px;
   height: 250px;
+=======
+  width: 200px;
+  height: 300px;
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   background-color: #6f4f1f; /* Kahverengi */
   border-radius: 70% 70% 30% 30%;
   position: relative;
@@ -60,19 +65,32 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
+=======
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); /* Gölgelendirme ekledik */
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
 }
 
 /* Ayıcığın Bacakları */
 #bear .legs {
+<<<<<<< HEAD
   width: 50px;
   height: 80px;
   background-color: #6f4f1f;
   position: absolute;
   bottom: -15px;
+=======
+  width: 60px;
+  height: 100px;
+  background-color: #6f4f1f;
+  position: absolute;
+  bottom: -20px;
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   display: flex;
   justify-content: space-between;
 }
 
+<<<<<<< HEAD
 #bear .legs .leg {
   width: 20px;
   height: 50px;
@@ -92,18 +110,41 @@ body {
 #bear .arms .arm {
   width: 20px;
   height: 60px;
+=======
+/* Ayıcığın Kolları */
+#bear .arms {
+  position: absolute;
+  top: 80px; /* Kolları biraz yukarıya alalım */
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+/* Kolları biraz daha genişletelim */ }
+
+#bear .arms .arm {
+  width: 30px;/* kolları biraz büyütelim */
+  height: 80px;/* kolları biraz büyütelim */
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   background-color: #6f4f1f;
   border-radius: 10px;
 }
 
 /* Ayıcığın Gözleri */
 #bear .eye {
+<<<<<<< HEAD
   width: 20px;
   height: 20px;
   background-color: black;
   border-radius: 50%;
   position: absolute;
   top: 30px;
+=======
+  width: 25px;/* Gözleri biraz büyütelim */
+  height: 20px; /* Gözleri biraz büyütelim */
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 35px;/* Gözleri biraz yukarı kaydıralım */
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
 }
 
 #bear .eye.left {
@@ -116,6 +157,7 @@ body {
 
 /* Ayıcığın Burnu */
 #bear .nose {
+<<<<<<< HEAD
   width: 20px;
   height: 15px;
   background-color: #9e7a4e; /* Açık kahverengi burun */
@@ -123,11 +165,21 @@ body {
   position: absolute;
   top: 50px;
   left: 50%;
+=======
+  width: 25px; /* Burunu biraz büyütelim */
+  height: 20px; /* Burunu biraz büyütelim */
+  background-color: #9e7a4e; /* Açık kahverengi burun */
+  border-radius: 50%;
+  position: absolute;
+  top: 55px;
+/* burunu biraz yukarı kaydıralım */  left: 50%;
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   transform: translateX(-50%);
 }
 
 /* Ayıcığın Ağız */
 #bear .mouth {
+<<<<<<< HEAD
   width: 40px;
   height: 20px;
   background-color: black;
@@ -135,12 +187,22 @@ body {
   position: absolute;
   bottom: 20px;
   left: 50%;
+=======
+  width: 50px;
+/* ağız biraz büyütülecek */  height: 25px;
+/* Ağız biraz büyütülecek */  background-color: black;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 30px;
+/* Ağız biraz aşağıya kaydırılacak */   left: 50%;
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   transform: translateX(-50%);
   border-radius: 0 0 10px 10px;
 }
 
 /* Ayıcığın Gülü */
 #bear .flower {
+<<<<<<< HEAD
   width: 20px;
   height: 50px;
   background-color: #ff69b4; /* Pembe renk */
@@ -148,6 +210,15 @@ body {
   position: absolute;
   bottom: 5px;
   right: -30px;
+=======
+  width: 60px; /* Gülü biraz büyütüyoruz */
+  height: 90px; /* Gülü biraz büyütüyoruz */
+  background-color: #ff69b4; /* Pembe renk */
+  border-radius: 50%;
+  position: absolute;
+  bottom: -40px;
+  right: 90px;
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
   transform: rotate(45deg);
   display: flex;
   justify-content: center;
@@ -156,5 +227,21 @@ body {
 
 #bear .flower::after {
   content: "🌸"; /* Gül emojisi */
+<<<<<<< HEAD
   font-size: 24px;
 }
+=======
+  font-size: 36px; /* Gülün boyutunu artırdık */
+}
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 2749c48 (İlk yükleme: HTML, CSS, ve JS dosyaları)
